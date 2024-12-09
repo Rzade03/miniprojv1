@@ -1,0 +1,187 @@
+nav {
+    background-color: #000000a8;
+    overflow: hidden;  
+    display: flex;
+    flex-direction: row;
+
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 30px 80px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: red;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 100px;
+    padding: 10px;
+    padding-left: 10px;
+}
+
+.body {
+    background-image: url(/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0%;
+}
+
+.center {
+    background-image: url(/images/carasi3.jpg);
+    background-size: cover;
+    font-size: 1.2em;
+    border-radius: 20px;
+    height: 800px;
+    width: 1218px;
+    margin: 1%;
+}
+
+.top{
+    position: absolute;
+    top: 77%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(white, gray);
+    color: transparent;
+    background-clip: text;
+    
+    font-size: 70px;
+    font-family: Arial, Helvetica, serif;
+    font-style: italic;
+    font-weight: bold;
+    -webkit-text-stroke: 2px rgb(2, 2, 16);
+}
+
+.head {
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgb(145, 164, 145); */
+    margin-left: 425px;
+    margin-right: 425px;
+} 
+
+.center1 {
+    background-image: url(/images/mun.jpg);
+    border-radius: 20px;
+    height: 400px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    font-size: 22px;
+    background-color: rgb(3, 99, 3);
+    opacity: 0.8;
+    text-align: center;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.text1{
+    color: white;
+    font-family: cursive;
+    font-size: 1.8em;
+    text-align: center;
+    background-color: rgb(3, 99, 3);
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.isnag {
+   border-radius: 20px;
+   height: 700px;
+   width: 1105px;
+  margin-left: 60px;
+   
+}
+
+.carasi {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', ;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 140px; /* Space between images */
+    margin-top: 30px;
+}
+.image-row figure {
+    text-align: center; /* Center text below each image */
+    max-width: 210px; /* Set maximum width for each figure */
+}
+.image-row img {
+    width: 120%; /* Adjust width to fit the figure */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Optional border styling */
+}
+.image-row figcaption {
+    margin-top: 8px; /* Add spacing between the image and text */
+    font-size: 16px;
+    color: #333; /* Text color */
+    background-color: white;
+    text-align: center;
+    margin-left: 40px;
+}
+.tourist{
+    text-align: center;
+    font-size: 25px;
+    background-color: white;
+    margin-left: 580px;
+    margin-right: 520px;
+}
+.tourist1 {
+    text-align: center;
+    font-size: larger;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Talip {
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(229, 20, 20);
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.mag {
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+.tan {
+    margin-left: 15px;
+    width: 1000px;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: 130px
+}
+
+
+
+
+
+
+
+
+  
+
+
